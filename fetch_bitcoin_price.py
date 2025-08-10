@@ -45,7 +45,7 @@ def fetch_bitcoin_price():
         }
         
         # Insert data into Supabase
-        result = supabase.table('bitcoin_price').insert(bitcoin_price_data).execute()
+        result = supabase.table('bitcoin_price').update(bitcoin_price_data).eq('id', 1).execute()
         
         print(f"Successfully stored Bitcoin price: ${quote_data['price']:.2f}")
         print(f"24h change: {quote_data['percent_change_24h']:.2f}%")
