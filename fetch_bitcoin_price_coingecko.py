@@ -24,13 +24,10 @@ def fetch_bitcoin_price():
         'x-cg-pro-api-key': CG_API_KEY,
         'Accept': 'application/json'
     }
-    params = {
-        'symbol': 'BTC'
-    }
     
     try:
         # Fetch data from CoinGecko
-        response = requests.get(url, headers=headers, params=params)
+        response = requests.get(url, headers=headers)
         response.raise_for_status()
         data = response.json()
         
