@@ -43,8 +43,8 @@ def fetch_bitcoin_price():
             'price': price,
             'last_updated': datetime.utcnow().isoformat(),
             'percent_change_24h': percent_change_24h,
-            'high_24h_usd': high_24h_usd,
-            'low_24h_usd': low_24h_usd,
+            '24h_high': high_24h_usd,
+            '24h_low': low_24h_usd,
             'price_change_24h': price_change_24h
         }
         
