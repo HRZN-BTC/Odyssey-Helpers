@@ -37,4 +37,4 @@ jobs:
         CMC_API_KEY: ${{ secrets.CMC_API_KEY }}
         SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
         SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
-      run: python fetch_bitcoin_price.py
+      run: python fetch_bitcoin_price_coingecko.py
