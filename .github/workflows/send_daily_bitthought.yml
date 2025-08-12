@@ -30,7 +30,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install requests supabase onesignal onesignal_sdk python-dotenv
+        pip install -r requirements.txt
     
     - name: Send Daily BitThought
       env:
