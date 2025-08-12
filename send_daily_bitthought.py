@@ -127,7 +127,7 @@ def send_update_daily_bitthought():
         # Create notification with the daily quote
         notification = Notification(
             app_id=ONE_SIGNAL_APP_ID,
-            headings={"en": "Captain's Log 📜₿"},
+            headings={"en": "Captain's Log 📜"},
             contents={"en": daily_quote},
             include_aliases={"external_id": user_ids},
             target_channel="push",
