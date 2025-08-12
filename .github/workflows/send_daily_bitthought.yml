@@ -2,13 +2,15 @@ name: Send Daily BitThought
 
 on:
   schedule:
-    # Run every day at 9:00 AM PST (17:00 UTC)
-    - cron: '0 17 * * *'
+    # Run every day at 10:15 AM in America/Los_Angeles timezone (PST/PDT)
+    - cron: '15 10 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
   send-daily-bitthought:
     runs-on: ubuntu-latest
+    env:
+      TZ: America/Los_Angeles
     
     steps:
     - name: Checkout code
