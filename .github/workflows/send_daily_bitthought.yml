@@ -3,7 +3,7 @@ name: Send Daily BitThought
 on:
   schedule:
     # Run every day at 10:15 AM in America/Los_Angeles timezone (PST/PDT)
-    - cron: '15 10 * * *'
+    - cron: '30 16 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:
