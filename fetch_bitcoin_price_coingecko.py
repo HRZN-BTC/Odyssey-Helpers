@@ -7,7 +7,7 @@ def fetch_bitcoin_price():
     """Fetch Bitcoin price from CoinGecko API and store in Supabase"""
     
     # Get environment variables
-    CG_API_KEY = os.getenv('CMC_API_KEY')
+    CG_API_KEY = os.getenv('CG_API_KEY')
     SUPABASE_URL = os.getenv('SUPABASE_URL')
     SUPABASE_KEY = os.getenv('SUPABASE_KEY')
 
