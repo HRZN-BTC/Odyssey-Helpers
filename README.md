@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/logo.png" alt="Odyssey Logo" width="200" height="200">
+  <img src="logo.png" alt="Odyssey Logo" width="200" height="200">
   
   # Odyssey: Helper Functions / Services
   
