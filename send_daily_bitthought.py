@@ -20,7 +20,7 @@ ONE_SIGNAL_APP_KEY = os.environ.get("ONE_SIGNAL_APP_KEY")
 ONE_SIGNAL_APP_ID = os.environ.get("ONE_SIGNAL_APP_ID")
 
 # GitHub raw file URL
-BITTHOUGHTS_URL = "https://raw.githubusercontent.com/oogunjob/Daily-BitThought/refs/heads/main/bitthoughts.txt"
+BITTHOUGHTS_URL = "https://raw.githubusercontent.com/HRZN-BTC/Daily-BitThought/refs/heads/main/bitthoughts.txt"
 
 # OneSignal configuration
 configuration = onesignal.Configuration(
