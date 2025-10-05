@@ -44,8 +44,17 @@ We believe in complete transparency when it comes to Bitcoin education. This rep
 
 ## 🔗 Related Repos
 
-- **[Odyssey Resources](https://github.com/oogunjob/Odyssey-Resources)** - Educational resources on Bitcoin
-- **[Daily BitThought](https://github.com/oogunjob/Daily-BitThought)** - Source of motivational quotes
+- **[Odyssey Resources](https://github.com/HRZN-BTC/Odyssey-Resources)** - Educational resources on Bitcoin
+- **[Daily BitThought](https://github.com/HRZN-BTC/Daily-BitThought)** - Source of motivational quotes
+
+
+## 🪙 Donations
+
+If you enjoy HRZN's projects and want to support our continued development, you can contribute Bitcoin directly to help us grow and maintain our tools. Any contribution, large or small, is greatly appreciated and helps fund ongoing innovation:
+
+Bitcoin Wallet Address: `bc1q8w4hs02l3vnyx95hanuc2lyzpvk97ty2fh5ng2`
+
+Your support enables us to keep building educational, secure, and user-friendly Bitcoin tools for beginners and enthusiasts alike.
 
 ---
 
